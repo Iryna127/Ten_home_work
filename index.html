@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="sel">
+      <div>Selected:</div>
+      <div id="selected"></div>
+    </div>
+    <div div-name="Div N1 clicked" class="div one">
+      I'm Div 1
+      <div div-name="Div N4 clicked" class="div four">
+        I'm Div 4
+        <div div-name="Div N3 clicked" class="div three">
+          I'm Div 3
+          <button
+            button-name="Btn №1 clicked"
+            onclick="onFirstButtonHendler(event)"
+          >
+            Button1
+          </button>
+        </div>
+        <div div-name="Div N2 clicked" class="div two">
+          I'm Div 2
+          <button
+            button-nam="Btn №2 clicked"
+            onclick="onSecondButtonHendler(event)"
+          >
+            Button2
+          </button>
+        </div>
+      </div>
+      <p class="text">Dom pracrice</p>
+    </div>
+    <div class="input">
+      <input id="inp" onkeyup="check()" type="text" name="" id="" />
+      <button onclick="showAlertHendler()" id="send" disabled>On</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

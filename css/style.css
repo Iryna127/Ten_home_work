@@ -1,0 +1,83 @@
+body {
+  min-height: 100%;
+
+}
+.sel {
+  padding: 16px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+.selected {
+text-align: center;
+color: darkmagenta;
+font-size: 28px;
+margin: 25px 0; 
+
+}
+.div.one {
+background-color: antiquewhite;
+  max-width: 1150px;
+  margin: 0 auto;
+  text-align: center;
+  height: 350px;
+  padding: 16px;
+  margin-bottom: 100px;
+
+}
+.div.four {
+  text-align: center;
+  background-color: aqua;
+  display: flex;
+  justify-content:center;
+  max-width: 950px;
+  margin: 0 auto; 
+  padding: 16px;
+}
+.div.two {
+
+  background-color: rgb(194, 131, 36);
+  padding: 12px 32px;
+  margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+.div.three {
+  background-color: coral;
+  padding: 12px 32px;
+  margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+button {
+  background-color: rgb(175, 168, 150);
+  box-shadow: 2px 2px green;
+  border-radius: 4px;
+  text-transform: uppercase;
+  line-height: 18px;
+  padding: 12px 32px;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  color: rgb(58, 20, 120);
+  margin: 30px 15px;
+}
+p {
+  font-size: 30px;
+  color: rgb(20, 74, 3);
+}
+.text {
+  text-align: center;
+}
+
+.input {
+ 
+ max-width: 1150px;
+ margin: 0 auto;
+  text-align: center;
+  background-color: darkgrey;
+}
+
